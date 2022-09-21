@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: white;
+    background: rgb(255, 5, 172);
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 30px; 
+}
+
+img {
+    /* height:70%; */
+    width: 50%;
+    float: left;
+
+}
+ .item-1{
+    padding: 20px;
+    /* margin-left: 750px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-style: normal;
+    text-align: justify;
+    color:blue;
+} 
+.container{
+    margin-top: 50px;
+    width:100%;
+    /* max-width: 1000px; */
+    /* height: 430px; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    float:center;
+}
+.card{
+    width: 33.3%;
+    /* height: 430px; */
+    margin: 20 20 20 20 px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .card h2{
+    font-size: 2.5em;
+}
+.card img{
+    width: 98%;
+    height: 98%; 
+}
+.container .card h4{
+    font-weight: 600;
+}
+/* .container .card p{
+    padding: 0 1rem;
+    font-size: 72px;
+    font-weight: 300;
+} */
+.container .card a{
+    font-weight:500;
+}
+p{
+    color: black    ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 10px;
+}
+footer{
+    background-color: dodgerblue;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
